@@ -18,7 +18,7 @@ code {
 }
 
 .home-bgd{
-  background: url('/dettyHome.png') no-repeat ;
+  background: url('../public/dettyHome.png') no-repeat ;
 }
 
 .nav-bgd{
