@@ -35,7 +35,7 @@ export default function Nav() {
                 <div className="navbar-head nav-left">
                     <div className="navbar-toogle-button" data-collapse="collapseSidebar"></div>
                     <a href='/' className="navbar-header">
-                    <img src="detty.png" width="91" height="32"/>
+                    <img src="Detty.png" width="91" height="32"/>
                     </a>
                 </div>
                 <div className="navbar arvo bold c-dark " id="collapseSidebar">
@@ -49,7 +49,7 @@ export default function Nav() {
         <div className="navbar-head nav-left">
             <div className="navbar-toogle-button" data-collapse="collapseSidebar"></div>
             <a href='/' className="navbar-header">
-            <img src="detty.png" width="91" height="32"/>
+            <img src="Detty.png" width="91" height="32"/>
             </a>
         </div>
         <div className="navbar arvo bold c-dark" id="collapseSidebar">
