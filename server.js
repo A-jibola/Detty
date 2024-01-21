@@ -24,7 +24,7 @@ server.get("*", function (req, res) {
 server.listen(process.env.PORT, async function(){
     console.log('server is listening on port: '+ process.env.PORT);
     try{
-        await mongoose.connect(process.env.PORT);
+        await mongoose.connect(process.env.MONGO_URI);
         console.log("Connected to MongoDB")
     }
     catch(error){
