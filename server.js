@@ -21,10 +21,10 @@ server.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "./view/build/index.html"));
   });
 
-server.listen('5001', async function(){
-    console.log('server is listening on port: 5001');
+server.listen(process.env.PORT, async function(){
+    console.log('server is listening on port: process.env.MONGO_URI);
     try{
-        await mongoose.connect(process.env.MONGO_URI);
+        await mongoose.connect(process.env.PORT);
         console.log("Connected to MongoDB")
     }
     catch(error){
