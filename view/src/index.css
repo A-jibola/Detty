@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Merriweather', serif;
+  background-color: #feffff;
+}
+
+.pl-05{
+  padding-left: 0.05rem !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-bgd{
+  background: url('/dettyHome.png') no-repeat ;
+}
+
+.nav-bgd{
+  background-color: #939FA0
+}
+
+.gradient_bgd1{
+  background: linear-gradient(180deg, #FFF 5.73%, rgba(184, 233, 230, 0.79) 35.94%, rgba(98, 207, 109, 0.56) 56.25%, rgba(70, 56, 8, 0.50) 75%, rgba(0, 0, 0, 0.80) 100%);
+}
+
+.gradient_bgd2{
+  background: linear-gradient(180deg, #000 0%, rgba(103, 66, 10, 0.80) 99.99%, #FFF 100%);
+}
+
+.belleza{
+  font-family: 'Belleza', sans-serif;
+}
+
+.belleza_font{
+  text-align: center;
+  font-family: 'Belleza', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  font-weight: 400 !important;
+  max-width: 50rem;
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.arvo{
+  font-family: 'Arvo', serif;
+}
+
+.no-underline{
+  text-decoration: none;
+}
+
+.home-text-box{
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.w-100{
+  width: 100%
+}
+.w-50{
+  width: 50%
+}
+.w-20{
+  width: 20%
+}
+.w-15{
+  width: 15%
+}
+.w-10{
+  width: 10%
+}
+
+.space-btw{
+  justify-content: space-between;
+}
+
+.home-text-box p{
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.footer{
+  border-top: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.width-100, .w-max-100{
+  max-width: 100%;
+}
+
+.h-max-100{
+  max-height: 80vh !important;
+}
+
+.h-max-50{
+  max-height: 50vh !important;
+}
+
+
+.w-99{
+  width: 99%;
+}
+
+.details_select{
+  text-align: right;
+  margin: 1rem;
+  display: flex;
+  align-content: center;
+}
+
+.cursor-point{
+  cursor: pointer;
+}
+
+.p-button:hover{
+  font-weight: 700;
+}
+
+
+.image-container{
+  position: relative;
+  width: 100%;
+}
+
+.w-max-50{
+  max-width: 50%;
+}
+
+.image-overlay{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(0, 0, 0, 0.7);
+  display: table-row;
+  margin: auto;
+}
+
+.left-overlay{
+  position: absolute;
+  height: 96%;
+  background-color: rgb(0, 0, 0, 0.85);
+  z-index: 99;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+  opacity: 0;
+  color: #FFF;
+  transition: .5s ease;
+}
+
+.right-overlay{
+  position: absolute;
+  height: 96%;
+  background-color: rgb(0, 0, 0, 0.85);
+  z-index: 99;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
+  opacity: 0;
+  transition: .5s ease;
+  right: -1px;
+}
+
+.position-sticky{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.image-container:hover .left-overlay, .image-container:hover .right-overlay{
+  opacity: 1;
+}
+
+.d-inline{
+  display: inline-block;
+}
+
+.max-content{
+  width: max-content;
+}
+
+.card-intro-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.smaller-text{
+  font-size: 16px;
+}
