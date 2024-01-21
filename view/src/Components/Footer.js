@@ -21,6 +21,7 @@ export default function Footer({style}) {
                         <option value="Others">Others</option>
                   </select>
                   <br />
+                  <br />
                 <a href={`/search/${category}/${name}`} className="mt-1 text-center button button-dark"> Search </a>
             </div>
             <div className='col-lg-4 col-md-9'>
