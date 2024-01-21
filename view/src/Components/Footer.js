@@ -20,7 +20,7 @@ export default function Footer({style}) {
                         <option value="Events">Events</option>
                         <option value="Others">Others</option>
                   </select>
-                <a href={`/search/${category}/${name}`} className="button button-dark"> Search </a>
+                <a href={`/search/${category}/${name}`} className="d-block button button-dark"> Search </a>
             </div>
             <div className='col-lg-4 col-md-9'>
                 <h3 className='bold italic'>Contact Us</h3>
